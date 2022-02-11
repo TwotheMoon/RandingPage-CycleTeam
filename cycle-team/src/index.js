@@ -70,6 +70,7 @@ html, body, div, span, applet, object, iframe,
   }
   a{
     text-decoration:none;
+    color: inherit;
   }
   p{
     line-height: 20px;

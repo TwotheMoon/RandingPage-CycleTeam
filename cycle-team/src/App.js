@@ -1,10 +1,14 @@
 import bgImg from './img/bg.jpg';
 import styled from "styled-components";
 import Title from './Title';
+import Nav from './Nav';
 
 const Section = styled.div`
   width: 100%;
   height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 const BgImg = styled.div`
   position: fixed;
@@ -18,10 +22,12 @@ const BgImg = styled.div`
 `;
 
 function App() {
+
   return (
     <Section>
       <BgImg />
       <Title />
+      <Nav />
     </Section>
   );
 }
