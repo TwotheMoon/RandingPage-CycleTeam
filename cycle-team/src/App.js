@@ -5,7 +5,7 @@ import Nav from './Nav';
 
 const Section = styled.div`
   width: 100%;
-  height: 200vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
