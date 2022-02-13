@@ -159,14 +159,14 @@ const IconWrap = styled.div`
     cursor: pointer;
     svg{
         width: 20px;
-        fill: #F5F5F5;
+        fill: rgba(0, 0, 0, 0.5);
         margin-left: 20px;
         &:hover{
             fill: #16BFEF;
             transition: 0.2s;
         }
         &:not(:hover){
-            fill: white;
+            fill: rgba(0, 0, 0, 0.5);
             transition: 0.2s;
         }
     }
@@ -232,7 +232,7 @@ function ContectUs({ num }) {
                                 <InfoContetnWrap>
                                     <div>EMAIL</div>
                                     <p>
-                                        info@gmail.com
+                                        <a href='mailto:info@gmail.com'>info@gmail.com</a>
                                     </p>
                                 </InfoContetnWrap>
                                 <InfoContetnWrap>
