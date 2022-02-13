@@ -61,39 +61,16 @@ const HeaderWrap = styled.div`
             font-size: 12px;
         }
     }
+    .titleTdF{
+        margin-top: 200px;
+    }
 `;
 const HeaderVideoWrap = styled.div`
     margin-top: 50px;
     max-width: 100%;
 `;
-const HeaderBtn = styled.div`
-    max-width: auto;
-    height: auto;
-    border: 2px solid black;
-    padding: 20px 35px;
-    margin: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 13px;
-    font-weight: bold;
-    cursor: pointer;
-    &:hover{
-        color: #16BFEF;
-        border-color: #16BFEF;
-        transition: 0.2s;
-    }
-    &:not(:hover){
-        color: black;
-        border-color: black;
-        transition: 0.2s;
-    }
-    @media screen and (max-width: 500px){
-        width: 100%;
-    }
-`;
 const Descript = styled.p`
-    margin-top: 30px;
+    padding-top: 30px;
     line-height: 35px;
     color: #666;
     @media screen and (max-width: 500px){
@@ -120,6 +97,24 @@ function AboutUs() {
                     <ReactPlayer
                         className='react-player'
                         url={[
+                            'https://www.youtube.com/watch?v=84zVSNsrrhA',
+                        ]}
+                        playing={true}
+                        muted={true}
+                        controls={false}
+                        light={false}
+                        style={{ maxWidth: '100%', height: 'auto', zIndex: 1 }}
+                    />
+                </HeaderVideoWrap>
+
+                <HeaderVideoWrap>
+                    <h1 className="titleTdF">2022 Tour de France</h1>
+                    <Descript>
+                        2022년 투르 드 프랑스의 코스가 정식 프레젠테이션과 함께 공개되었습니다. <br /><br />
+                    </Descript>
+                    <ReactPlayer
+                        className='react-player'
+                        url={[
                             'https://www.youtube.com/watch?v=Gm9waGAoK-I',
                             'https://www.youtube.com/watch?v=lGWu2MrABeE',
                         ]}
@@ -131,7 +126,12 @@ function AboutUs() {
                     />
                 </HeaderVideoWrap>
                 <Descript>
-                    2022년 투르 드 프랑스의 코스가 정식 프레젠테이션과 함께 공개되었습니다. <br />
+
+                    총 3,328km, 11개의 코블 섹터, 29개의 2등급 이상 오르막, 6개의 산악 스테이지, 5개의 업힐 피니시, 그리고 모든 경쟁을 마무리할 40km의
+                    장거리 타임트라이얼까지, 덴마크의 코펜하겐에서 타임트라이얼로 시작하는 투르 드 프랑스는 두 개의 바람 가득한 스프린트 스테이지 이후 <br />
+                    휴식일과 함께 프랑스로 넘어와 업다운이 가득한 펀쳐 스테이지, 파리-루베의 파베, 보쥬와 쥐라 산맥의 폭발적인 급경사 업힐 피니시가 연달아 <br />
+                    등장하는 숨가쁜 첫 주를 보내게 됩니다. <br /><br />
+
                 </Descript>
             </HeaderWrap>
         </Section>

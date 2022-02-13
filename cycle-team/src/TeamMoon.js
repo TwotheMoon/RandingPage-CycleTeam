@@ -7,7 +7,7 @@ import cycle02 from "./img/cycle02.jpg";
 import cycle03 from "./img/cycle03.jpg";
 import cycle04 from "./img/cycle04.jpg";
 import cycle05 from "./img/cycle05.jpg";
-import cycle06 from "./img/cycle06.webp";
+import cycle06 from "./img/cycle06.jpg";
 
 const Section = styled.div`
     background-color: white;
@@ -148,7 +148,7 @@ function TeamMoon() {
                 <SmallContent date="21.12.23" url={cycle03} title="In 벨로드롬 TT-bike" desc="최근 벨로드롬에서의 경기의 중요성이 부각되고 있습니다. 이에 맞춰 Team Moon 도 트라이애슬론과 별개로 벨로드롬 전용 TT바이크를 실험하고 있습니다. " />
                 <SmallContent date="21.11.22" url={cycle04} title="TT 공기와의 싸움" desc="투르 드 프랑스, 지로 디 이탈리아 팀 대회 에서도 분명 개인 성적이 중요한 순간이 있습니다. Time Trial 0.1초라도 줄이기 위해 모든 것을 분석합니다." />
                 <SmallContent date="21.11.9" url={cycle05} title="피터 사간 & 다니엘 오스" desc="마지막 500 미터에서, 모든 것은 사라집니다. 고통, 군중, 모든 감정이 존재하지 않습니다. 그 때, 저희중 단 한 명의 사이클리스트가 그 피니쉬 라인을 지나는 것입니다." />
-                <SmallContent date="21.10.15" url={cycle06} title="반복되는 훈련" desc="여러 주 간의 인텐시브한 훈련 동안, 팀은 매일 훈련을 합니다. 매일 아침, 메카닉이 장비를 확인하고 수리하며, 코치는 매일 훈련 루트를 계획합니다." />
+                <SmallContent date="21.11.9" url={cycle06} title="피터 사간 & 다니엘 오스" desc="마지막 500 미터에서, 모든 것은 사라집니다. 고통, 군중, 모든 감정이 존재하지 않습니다. 그 때, 저희중 단 한 명의 사이클리스트가 그 피니쉬 라인을 지나는 것입니다." />
             </ContentWrap>
         </Section>
     );
