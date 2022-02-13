@@ -8,7 +8,7 @@ import ContectUs from "./ContectUs";
 const Section = styled.div`
     width: 100%;
     bottom: 0%; 
-    position: absolute;
+    position: relative;
 `;
 const NavBar = styled.div`
     margin: 0 auto;

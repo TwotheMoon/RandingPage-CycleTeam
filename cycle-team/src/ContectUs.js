@@ -11,6 +11,9 @@ const Section = styled.div`
     flex-direction: column;
     align-items: center;
     font-family: 'GmarketSansMedium';
+    @media screen and (max-width: 500px){
+        
+    }
 `;
 const HeaderWrap = styled(motion.div)`
     width: 80%;
