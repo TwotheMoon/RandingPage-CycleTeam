@@ -4,6 +4,7 @@ import Title from './Title';
 import Nav from './Nav';
 import { useRef } from 'react';
 import Footer from './Footer';
+import { motion } from 'framer-motion';
 
 const Section = styled.div`
   width: 100%;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 const Section = styled.div`
     width: 100%;
     min-height: 100px;
-    max-width: 1500px;
+    max-width: 1200px;
     background-color: rgba(67, 74, 78, 0.9);
     display: flex;
     align-items: center;

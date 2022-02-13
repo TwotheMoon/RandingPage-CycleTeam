@@ -3,8 +3,7 @@ import { useEffect, useState } from "react";
 import styled from "styled-components";
 import TeamMoon from "./TeamMoon";
 import AboutUs from "./AboutUs";
-import Reference from "./Reference";
-import Footer from "./Footer";
+import ContectUs from "./ContectUs";
 
 const Section = styled.div`
     width: 100%;
@@ -13,7 +12,7 @@ const Section = styled.div`
 `;
 const NavBar = styled.div`
     margin: 0 auto;
-    max-width: 1500px;
+    max-width: 1200px;
     height: 65px;
     background-color: rgba(67, 74, 78, 0.9);
     display: flex;
@@ -152,7 +151,7 @@ function Nav() {
                         </Menu>
                         <Menu onClick={() => setMenuIndex(3)} menuIndex={menuIndex} num={3}>
                             <MenuOverlay />
-                            Reference
+                            ContectUs
                         </Menu>
                     </MenuWrap>
                     <IconWrap>
@@ -172,9 +171,9 @@ function Nav() {
                     }
                 </NavBar>
             </Section>
-            {menuIndex === 1 && <TeamMoon />}
-            {menuIndex === 2 && <AboutUs />}
-            {menuIndex === 3 && <Reference />}
+            {menuIndex === 1 && <TeamMoon num={1} />}
+            {menuIndex === 2 && <AboutUs num={2} />}
+            {menuIndex === 3 && <ContectUs num={3} />}
         </>
     );
 }
