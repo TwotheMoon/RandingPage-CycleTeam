@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ReactPlayer from 'react-player'
 
 import teamMoon01 from "./img/TeamMoon01.jpg";
 
@@ -61,21 +62,9 @@ const HeaderWrap = styled.div`
         }
     }
 `;
-const HeaderImgBox = styled.div`
-    width: auto;
-    height: auto;
-    overflow: hidden;
+const HeaderVideoWrap = styled.div`
     margin-top: 50px;
-    `;
-const HeaderImg = styled.img`
     max-width: 100%;
-    height: auto;
-    transform: scale(1);
-    transition: 0.2s;
-    &:hover{
-        transform: scale(1.05);
-        transition: 0.2s;
-    }
 `;
 const HeaderBtn = styled.div`
     max-width: auto;
@@ -103,6 +92,15 @@ const HeaderBtn = styled.div`
         width: 100%;
     }
 `;
+const Descript = styled.p`
+    margin-top: 30px;
+    line-height: 35px;
+    color: #666;
+    @media screen and (max-width: 500px){
+        font-size: 12px;
+    }
+`;
+
 function AboutUs() {
 
     return (
@@ -112,18 +110,29 @@ function AboutUs() {
                 <DateText>2022.02.15</DateText>
             </DateWrap>
             <HeaderWrap>
-                <h1>Giro d'Italia를 위한 훈련</h1>
+                <h1>We are Team Moon</h1>
                 <p>
-                    Team Moon은 곧 있을 새 투어 지로 디 이탈리아를<br />
-                    대비한 연습에 돌입했습니다. 새해 첫 투어를 맞이하며 <br />
-                    좋은 성적을 내기 위한 훈련에 돌입 했습니다. <br />
+                    도로 사이클 역사에 가장 많은 승리를 한 팀<br />
+                    최근 보라-한스그로헤 로부터 이적한 피터 사간과 <br />
+                    2022년 3대 투어의 그랜드 슬램을 위해 언제나 달리고 있습니다. <br />
                 </p>
-                <HeaderImgBox>
-                    <HeaderImg src={teamMoon01} />
-                </HeaderImgBox>
-                <HeaderBtn>
-                    <span>FULL SOTRY</span>
-                </HeaderBtn>
+                <HeaderVideoWrap>
+                    <ReactPlayer
+                        className='react-player'
+                        url={[
+                            'https://www.youtube.com/watch?v=Gm9waGAoK-I',
+                            'https://www.youtube.com/watch?v=lGWu2MrABeE',
+                        ]}
+                        playing={true}
+                        muted={true}
+                        controls={false}
+                        light={false}
+                        style={{ maxWidth: '100%', height: 'auto', zIndex: 1 }}
+                    />
+                </HeaderVideoWrap>
+                <Descript>
+                    2022년 투르 드 프랑스의 코스가 정식 프레젠테이션과 함께 공개되었습니다. <br />
+                </Descript>
             </HeaderWrap>
         </Section>
     );
