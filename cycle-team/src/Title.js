@@ -155,7 +155,7 @@ function Title() {
                         exit={{ opacity: 0, y: 0 }}
                         transition={{ type: "tween", duration: "0.5" }}
                     >
-                        <TeamTitleLink href="/">
+                        <TeamTitleLink href="https://twothemoon.github.io/randingPage-CycleTeam/">
                             TEAMMOON
                         </TeamTitleLink>
                     </TeamTitle>
