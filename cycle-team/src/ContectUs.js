@@ -154,7 +154,6 @@ const IconWrap = styled.div`
             fill: rgba(0, 0, 0, 0.5);
             transition: 0.2s;
         }
-        }
     }
     svg:nth-child(2){
         width: 12px;
