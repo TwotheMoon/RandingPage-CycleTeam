@@ -212,7 +212,7 @@ function ContectUs({ num }) {
                                     <textarea />
                                 </InputWrap>
                                 <SendBtn>
-                                    <div>FULL SOTRY</div>
+                                    <div>SEND MESSAGE</div>
                                 </SendBtn>
                             </WriteWrap>
                             <InfoWrap>

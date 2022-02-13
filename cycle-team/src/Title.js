@@ -124,7 +124,7 @@ function Title() {
     return (
         <Section>
             <AnimatePresence>
-                {toScroll == false &&
+                {toScroll === false &&
                     <Content
                         initial={{ opacity: 0, y: 0 }}
                         animate={{ opacity: 1, y: -50 }}
@@ -148,7 +148,7 @@ function Title() {
             </AnimatePresence>
             <DownWrap ref={downWrapRef} />
             <AnimatePresence>
-                {toScroll == true &&
+                {toScroll === true &&
                     <TeamTitle
                         inherit={{ opacity: 0, y: 0 }}
                         animate={{ opacity: 1, y: -50 }}
