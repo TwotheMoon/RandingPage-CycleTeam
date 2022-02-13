@@ -67,6 +67,7 @@ html, body, div, span, applet, object, iframe,
   }
   body{
     background-color: black;
+    overflow-x: hidden;
   }
   a{
     text-decoration:none;
