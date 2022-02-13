@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/randingPage-CycleTeam/static/js/main.b54919b6.js",
+    "main.js": "/randingPage-CycleTeam/static/js/main.383137cb.js",
     "static/media/bg.jpg": "/randingPage-CycleTeam/static/media/bg.b46f911bbd6da782c074.jpg",
     "static/media/TDFMap.jpg": "/randingPage-CycleTeam/static/media/TDFMap.ba3ff39c15c8514a1f37.jpg",
     "static/media/TeamMoon01.jpg": "/randingPage-CycleTeam/static/media/TeamMoon01.9b310e6f56fd91d4fda2.jpg",
@@ -11,9 +11,9 @@
     "static/media/cycle01.jpg": "/randingPage-CycleTeam/static/media/cycle01.1dd55ef363475ebb46d4.jpg",
     "static/media/cycle05.jpg": "/randingPage-CycleTeam/static/media/cycle05.e5dbe17978db6b56137e.jpg",
     "index.html": "/randingPage-CycleTeam/index.html",
-    "main.b54919b6.js.map": "/randingPage-CycleTeam/static/js/main.b54919b6.js.map"
+    "main.383137cb.js.map": "/randingPage-CycleTeam/static/js/main.383137cb.js.map"
   },
   "entrypoints": [
-    "static/js/main.b54919b6.js"
+    "static/js/main.383137cb.js"
   ]
 }
