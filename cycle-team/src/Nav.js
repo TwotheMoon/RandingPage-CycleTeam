@@ -4,6 +4,7 @@ import styled from "styled-components";
 import TeamMoon from "./TeamMoon";
 import AboutUs from "./AboutUs";
 import Reference from "./Reference";
+import Footer from "./Footer";
 
 const Section = styled.div`
     width: 100%;

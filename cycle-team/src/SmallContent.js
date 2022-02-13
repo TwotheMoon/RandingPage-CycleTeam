@@ -34,7 +34,10 @@ const Img = styled.img`
 const Desc = styled.p`
     margin-top: 30px;
     color: #666;
-    font-size: 15px;
+    line-height: 28px;
+    @media screen and (max-width: 500px){
+        font-size: 12px;
+    }
 `;
 const Btn = styled.div`
     max-width: auto;

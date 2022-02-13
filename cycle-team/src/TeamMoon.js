@@ -8,6 +8,7 @@ import cycle03 from "./img/cycle03.jpg";
 import cycle04 from "./img/cycle04.jpg";
 import cycle05 from "./img/cycle05.jpg";
 import cycle06 from "./img/cycle06.jpg";
+import Footer from "./Footer";
 
 const Section = styled.div`
     background-color: white;
