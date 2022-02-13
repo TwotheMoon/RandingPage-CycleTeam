@@ -59,12 +59,17 @@ const WriteWrap = styled.div`
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding: 70px 40px;
     border-right: 2px solid rgba(0, 0, 0, 0.2);
 `;
 const InputWrap = styled.div`
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 500px) {
+        align-items: center;
+    }
     div{
         display: flex;
         margin-bottom: 20px;
@@ -78,6 +83,9 @@ const InputWrap = styled.div`
         height: 45px;
         border: 3px solid rgba(0, 0, 0, 0.2);
         margin-bottom: 30px;
+        @media screen and (max-width: 500px) {
+            width: 200px;
+        }
     }
     textarea{
         background-color: #F5F5F5;
@@ -86,6 +94,9 @@ const InputWrap = styled.div`
         border: 3px solid rgba(0, 0, 0, 0.2);
         margin-bottom: 30px;
         resize: none;
+        @media screen and (max-width: 500px) {
+            width: 200px;
+        }
     }
 `;
 const InfoWrap = styled.div`
@@ -96,12 +107,17 @@ const InfoWrap = styled.div`
     border-right: 2px solid rgba(0, 0, 0, 0.2);    
     `;
 const InfoContetnWrap = styled.div`
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     border-bottom: 2px solid rgba(0, 0, 0, 0.2);
     padding: 65px 0px;
     padding-left: 30px;
+    @media screen and (max-width: 500px) {
+        flex-direction: column;
+        padding: 20px 0px;
+    }
     div:first-child{
         font-size: 13px;
         font-weight: bold;
@@ -112,6 +128,36 @@ const InfoContetnWrap = styled.div`
         margin-left: 30px;
         font-size: 13px;
         color: rgba(0, 0, 0, 0.7);
+        @media screen and (max-width: 500px) {
+            margin-left: 0px;
+            margin-top: 20px;
+        }
+    }
+`;
+const IconWrap = styled.div`
+    width: 250px;
+    margin-left: 30px;
+    cursor: pointer;
+    @media screen and (max-width: 500px) {
+        margin-left: -15px;
+        margin-top: 20px;
+    }
+    svg{
+        width: 20px;
+        fill: rgba(0, 0, 0, 0.5);
+        margin-left: 20px;
+        &:hover{
+            fill: #16BFEF;
+            transition: 0.2s;
+        }
+        &:not(:hover){
+            fill: rgba(0, 0, 0, 0.5);
+            transition: 0.2s;
+        }
+        }
+    }
+    svg:nth-child(2){
+        width: 12px;
     }
 `;
 const SendBtn = styled.div`
@@ -136,7 +182,7 @@ const SendBtn = styled.div`
         transition: 0.2s;
     }
     @media screen and (max-width: 500px){
-        width: 100%;
+        width: 200px;
     }
 `;
 const fadeInVariants = {
@@ -151,29 +197,7 @@ const fadeInVariants = {
         },
     },
 };
-const IconWrap = styled.div`
-    width: auto;
-    display: flex;
-    align-items: center;
-    margin-left: 50px;
-    cursor: pointer;
-    svg{
-        width: 20px;
-        fill: rgba(0, 0, 0, 0.5);
-        margin-left: 20px;
-        &:hover{
-            fill: #16BFEF;
-            transition: 0.2s;
-        }
-        &:not(:hover){
-            fill: rgba(0, 0, 0, 0.5);
-            transition: 0.2s;
-        }
-    }
-    svg:nth-child(2){
-        width: 12px;
-    }
-`;
+
 
 function ContectUs({ num }) {
 

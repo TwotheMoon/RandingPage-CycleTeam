@@ -7,7 +7,7 @@ import ContectUs from "./ContectUs";
 
 const Section = styled.div`
     width: 100%;
-    bottom: 0; 
+    bottom: 0%; 
     position: absolute;
 `;
 const NavBar = styled.div`

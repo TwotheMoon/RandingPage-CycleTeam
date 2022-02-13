@@ -14,7 +14,7 @@ const Content = styled.span`
     color: rgba(255, 255, 255, 0.3);
     font-size: 12px;
     @media screen and (max-width: 500px) {
-        font-size: 1px;
+        font-size: 10px;
     }
 `;
 function Footer() {
