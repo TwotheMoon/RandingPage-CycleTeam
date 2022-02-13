@@ -176,7 +176,7 @@ function TeamMoon({ num }) {
                                 <SmallContent date="21.12.23" url={cycle03} title="In 벨로드롬 TT-bike" desc="최근 벨로드롬에서의 경기의 중요성이 부각되고 있습니다. 이에 맞춰 Team Moon 도 트라이애슬론과 별개로 벨로드롬 전용 TT바이크를 실험하고 있습니다. " />
                                 <SmallContent date="21.11.22" url={cycle04} title="TT 공기와의 싸움" desc="투르 드 프랑스, 지로 디 이탈리아 팀 대회 에서도 분명 개인 성적이 중요한 순간이 있습니다. Time Trial 0.1초라도 줄이기 위해 모든 것을 분석합니다." />
                                 <SmallContent date="21.11.9" url={cycle05} title="피터 사간 & 다니엘 오스" desc="마지막 500 미터에서, 모든 것은 사라집니다. 고통, 군중, 모든 감정이 존재하지 않습니다. 그 때, 저희중 단 한 명의 사이클리스트가 그 피니쉬 라인을 지나는 것입니다." />
-                                <SmallContent date="21.11.9" url={cycle06} title="피터 사간 & 다니엘 오스" desc="마지막 500 미터에서, 모든 것은 사라집니다. 고통, 군중, 모든 감정이 존재하지 않습니다. 그 때, 저희중 단 한 명의 사이클리스트가 그 피니쉬 라인을 지나는 것입니다." />
+                                <SmallContent date="21.11.9" url={cycle06} title="장인을 위한 최고의 장비" desc="최고의 선수에게는 항상 최고의 장비들이 함께합니다. 이번 Team Moon의 새 장비를 담당해 줄 Specialized 또한 선수들이 믿고 사용 할 수 있는 다양한 제품들을 제공합니다." />
                             </ContentWrap>
                         </>
                     }
